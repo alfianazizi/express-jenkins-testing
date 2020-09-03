@@ -5,10 +5,6 @@ module.exports = {
       script: './bin/www',
       watch: '.',
     },
-    {
-      script: './service-worker/',
-      watch: ['./service-worker'],
-    },
   ],
 
   deploy: {
